@@ -30,22 +30,22 @@ namespace WindowsFormsApp1
         private void InitializeComponent()
         {
             this.tbFishType = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.labelFishType = new System.Windows.Forms.Label();
+            this.tbMaxT = new System.Windows.Forms.TextBox();
+            this.labelMaxT = new System.Windows.Forms.Label();
+            this.tbExceedingTime = new System.Windows.Forms.TextBox();
+            this.labelExceedingTime = new System.Windows.Forms.Label();
+            this.tbMinT = new System.Windows.Forms.TextBox();
+            this.labelMinT = new System.Windows.Forms.Label();
+            this.tbDescentTime = new System.Windows.Forms.TextBox();
+            this.labelDescentTime = new System.Windows.Forms.Label();
+            this.tbDate = new System.Windows.Forms.TextBox();
+            this.labelDate = new System.Windows.Forms.Label();
+            this.btnUpload = new System.Windows.Forms.Button();
+            this.tbTempMeasurement = new System.Windows.Forms.TextBox();
+            this.labelTempMeasurement = new System.Windows.Forms.Label();
+            this.tbMain = new System.Windows.Forms.TextBox();
+            this.btnGenerateReport = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // tbFishType
@@ -55,158 +55,158 @@ namespace WindowsFormsApp1
             this.tbFishType.Size = new System.Drawing.Size(152, 20);
             this.tbFishType.TabIndex = 0;
             // 
-            // label1
+            // labelFishType
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(430, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(52, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Fish type:";
+            this.labelFishType.AutoSize = true;
+            this.labelFishType.Location = new System.Drawing.Point(430, 9);
+            this.labelFishType.Name = "labelFishType";
+            this.labelFishType.Size = new System.Drawing.Size(52, 13);
+            this.labelFishType.TabIndex = 1;
+            this.labelFishType.Text = "Fish type:";
             // 
-            // textBox1
+            // tbMaxT
             // 
-            this.textBox1.Location = new System.Drawing.Point(433, 85);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(86, 20);
-            this.textBox1.TabIndex = 2;
+            this.tbMaxT.Location = new System.Drawing.Point(433, 85);
+            this.tbMaxT.Name = "tbMaxT";
+            this.tbMaxT.Size = new System.Drawing.Size(86, 20);
+            this.tbMaxT.TabIndex = 2;
             // 
-            // label2
+            // labelMaxT
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(431, 69);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(89, 13);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Max temperatute:";
+            this.labelMaxT.AutoSize = true;
+            this.labelMaxT.Location = new System.Drawing.Point(431, 69);
+            this.labelMaxT.Name = "labelMaxT";
+            this.labelMaxT.Size = new System.Drawing.Size(89, 13);
+            this.labelMaxT.TabIndex = 3;
+            this.labelMaxT.Text = "Max temperatute:";
             // 
-            // textBox2
+            // tbExceedingTime
             // 
-            this.textBox2.Location = new System.Drawing.Point(547, 85);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(87, 20);
-            this.textBox2.TabIndex = 4;
+            this.tbExceedingTime.Location = new System.Drawing.Point(547, 85);
+            this.tbExceedingTime.Name = "tbExceedingTime";
+            this.tbExceedingTime.Size = new System.Drawing.Size(87, 20);
+            this.tbExceedingTime.TabIndex = 4;
             // 
-            // label3
+            // labelExceedingTime
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(544, 69);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(79, 13);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "Exceeding time";
+            this.labelExceedingTime.AutoSize = true;
+            this.labelExceedingTime.Location = new System.Drawing.Point(544, 69);
+            this.labelExceedingTime.Name = "labelExceedingTime";
+            this.labelExceedingTime.Size = new System.Drawing.Size(79, 13);
+            this.labelExceedingTime.TabIndex = 5;
+            this.labelExceedingTime.Text = "Exceeding time";
             // 
-            // textBox3
+            // tbMinT
             // 
-            this.textBox3.Location = new System.Drawing.Point(434, 140);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(85, 20);
-            this.textBox3.TabIndex = 6;
+            this.tbMinT.Location = new System.Drawing.Point(434, 140);
+            this.tbMinT.Name = "tbMinT";
+            this.tbMinT.Size = new System.Drawing.Size(85, 20);
+            this.tbMinT.TabIndex = 6;
             // 
-            // label4
+            // labelMinT
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(431, 124);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(83, 13);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "Min temperature";
+            this.labelMinT.AutoSize = true;
+            this.labelMinT.Location = new System.Drawing.Point(431, 124);
+            this.labelMinT.Name = "labelMinT";
+            this.labelMinT.Size = new System.Drawing.Size(83, 13);
+            this.labelMinT.TabIndex = 7;
+            this.labelMinT.Text = "Min temperature";
             // 
-            // textBox4
+            // tbDescentTime
             // 
-            this.textBox4.Location = new System.Drawing.Point(547, 139);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(87, 20);
-            this.textBox4.TabIndex = 8;
+            this.tbDescentTime.Location = new System.Drawing.Point(547, 139);
+            this.tbDescentTime.Name = "tbDescentTime";
+            this.tbDescentTime.Size = new System.Drawing.Size(87, 20);
+            this.tbDescentTime.TabIndex = 8;
             // 
-            // label5
+            // labelDescentTime
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(547, 123);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(69, 13);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "Descent time";
+            this.labelDescentTime.AutoSize = true;
+            this.labelDescentTime.Location = new System.Drawing.Point(544, 123);
+            this.labelDescentTime.Name = "labelDescentTime";
+            this.labelDescentTime.Size = new System.Drawing.Size(69, 13);
+            this.labelDescentTime.TabIndex = 9;
+            this.labelDescentTime.Text = "Descent time";
             // 
-            // textBox5
+            // tbDate
             // 
-            this.textBox5.Location = new System.Drawing.Point(433, 185);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(143, 20);
-            this.textBox5.TabIndex = 10;
+            this.tbDate.Location = new System.Drawing.Point(433, 185);
+            this.tbDate.Name = "tbDate";
+            this.tbDate.Size = new System.Drawing.Size(143, 20);
+            this.tbDate.TabIndex = 10;
             // 
-            // label6
+            // labelDate
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(434, 167);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(30, 13);
-            this.label6.TabIndex = 11;
-            this.label6.Text = "Date";
+            this.labelDate.AutoSize = true;
+            this.labelDate.Location = new System.Drawing.Point(434, 167);
+            this.labelDate.Name = "labelDate";
+            this.labelDate.Size = new System.Drawing.Size(30, 13);
+            this.labelDate.TabIndex = 11;
+            this.labelDate.Text = "Date";
             // 
-            // button1
+            // btnUpload
             // 
-            this.button1.Location = new System.Drawing.Point(633, 183);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 12;
-            this.button1.Text = "Upload";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnUpload.Location = new System.Drawing.Point(633, 183);
+            this.btnUpload.Name = "btnUpload";
+            this.btnUpload.Size = new System.Drawing.Size(75, 23);
+            this.btnUpload.TabIndex = 12;
+            this.btnUpload.Text = "Upload";
+            this.btnUpload.UseVisualStyleBackColor = true;
             // 
-            // textBox6
+            // tbTempMeasurement
             // 
-            this.textBox6.Location = new System.Drawing.Point(433, 242);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(355, 20);
-            this.textBox6.TabIndex = 13;
+            this.tbTempMeasurement.Location = new System.Drawing.Point(433, 242);
+            this.tbTempMeasurement.Name = "tbTempMeasurement";
+            this.tbTempMeasurement.Size = new System.Drawing.Size(355, 20);
+            this.tbTempMeasurement.TabIndex = 13;
             // 
-            // label7
+            // labelTempMeasurement
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(437, 223);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(133, 13);
-            this.label7.TabIndex = 14;
-            this.label7.Text = "Temperature measurement";
+            this.labelTempMeasurement.AutoSize = true;
+            this.labelTempMeasurement.Location = new System.Drawing.Point(437, 223);
+            this.labelTempMeasurement.Name = "labelTempMeasurement";
+            this.labelTempMeasurement.Size = new System.Drawing.Size(133, 13);
+            this.labelTempMeasurement.TabIndex = 14;
+            this.labelTempMeasurement.Text = "Temperature measurement";
             // 
-            // textBox7
+            // tbMain
             // 
-            this.textBox7.Location = new System.Drawing.Point(12, 24);
-            this.textBox7.Multiline = true;
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(392, 343);
-            this.textBox7.TabIndex = 15;
+            this.tbMain.Location = new System.Drawing.Point(12, 24);
+            this.tbMain.Multiline = true;
+            this.tbMain.Name = "tbMain";
+            this.tbMain.Size = new System.Drawing.Size(392, 343);
+            this.tbMain.TabIndex = 15;
             // 
-            // button2
+            // btnGenerateReport
             // 
-            this.button2.Location = new System.Drawing.Point(433, 297);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(355, 23);
-            this.button2.TabIndex = 16;
-            this.button2.Text = "Generate a report";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnGenerateReport.Location = new System.Drawing.Point(433, 297);
+            this.btnGenerateReport.Name = "btnGenerateReport";
+            this.btnGenerateReport.Size = new System.Drawing.Size(355, 23);
+            this.btnGenerateReport.TabIndex = 16;
+            this.btnGenerateReport.Text = "Generate a report";
+            this.btnGenerateReport.UseVisualStyleBackColor = true;
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btnGenerateReport);
+            this.Controls.Add(this.tbMain);
+            this.Controls.Add(this.labelTempMeasurement);
+            this.Controls.Add(this.tbTempMeasurement);
+            this.Controls.Add(this.btnUpload);
+            this.Controls.Add(this.labelDate);
+            this.Controls.Add(this.tbDate);
+            this.Controls.Add(this.labelDescentTime);
+            this.Controls.Add(this.tbDescentTime);
+            this.Controls.Add(this.labelMinT);
+            this.Controls.Add(this.tbMinT);
+            this.Controls.Add(this.labelExceedingTime);
+            this.Controls.Add(this.tbExceedingTime);
+            this.Controls.Add(this.labelMaxT);
+            this.Controls.Add(this.tbMaxT);
+            this.Controls.Add(this.labelFishType);
             this.Controls.Add(this.tbFishType);
             this.Name = "MainForm";
             this.Text = "Form1";
@@ -218,22 +218,22 @@ namespace WindowsFormsApp1
         #endregion
 
         private System.Windows.Forms.TextBox tbFishType;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label labelFishType;
+        private System.Windows.Forms.TextBox tbMaxT;
+        private System.Windows.Forms.Label labelMaxT;
+        private System.Windows.Forms.TextBox tbExceedingTime;
+        private System.Windows.Forms.Label labelExceedingTime;
+        private System.Windows.Forms.TextBox tbMinT;
+        private System.Windows.Forms.Label labelMinT;
+        private System.Windows.Forms.TextBox tbDescentTime;
+        private System.Windows.Forms.Label labelDescentTime;
+        private System.Windows.Forms.TextBox tbDate;
+        private System.Windows.Forms.Label labelDate;
+        private System.Windows.Forms.Button btnUpload;
+        private System.Windows.Forms.TextBox tbTempMeasurement;
+        private System.Windows.Forms.Label labelTempMeasurement;
+        private System.Windows.Forms.TextBox tbMain;
+        private System.Windows.Forms.Button btnGenerateReport;
     }
 }
 
